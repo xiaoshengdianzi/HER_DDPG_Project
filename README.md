@@ -1,6 +1,6 @@
 # HER_DDPG_Project
 
-![DDPG with HER on GridWorld](train_result.png)
+![DDPG with HER on GridWorld](images/train_result.png)
 
 ## Overview
 A target-oriented reinforcement learning project implementing Deep Deterministic Policy Gradient (DDPG) with Hindsight Experience Replay (HER) for goal-directed tasks. This project trains an agent to navigate a GridWorld environment, leveraging HER to convert failed attempts into valuable learning experiences, ideal for studying sparse-reward scenarios and continuous action control.
@@ -50,10 +50,10 @@ python train_her_ddpg.py
 ## Results
 
 ### Training Performance
-![Training Results](train_result.png)
+![Training Results](images/train_result.png)
 
 ### Agent Trajectories
-![Agent Trajectories](trajectory.png)
+![Agent Trajectories](images/trajectory.png)
 
 ## Project Structure
 ```

@@ -74,7 +74,7 @@ def main():
     plt.ylabel('Returns')
     plt.title('DDPG with HER on GridWorld')
     plt.legend()
-    plt.savefig('train_result.png')  # 保存图片，不弹窗
+    plt.savefig('images/train_result.png')  # 保存图片，不弹窗
     # 训练结束后效果测试
     print("\n========== 测试训练效果 ==========")
     evaluate_policy(agent, env, episodes=100)
@@ -119,7 +119,7 @@ def evaluate_policy(agent, env, episodes=100):
     plt.title('Agent Trajectories to Goals')
     plt.legend()
     plt.grid(True)
-    plt.savefig('trajectory.png')
+    plt.savefig('images/trajectory.png')
     plt.close()
 
 if __name__ == '__main__':
