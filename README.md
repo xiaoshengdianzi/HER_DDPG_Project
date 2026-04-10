@@ -64,6 +64,11 @@ python train_her_ddpg.py
 ![Agent Trajectories](images/trajectory.png)
 - This figure illustrates how State $(x, y)$ and Goal $(g_x, g_y)$ jointly drive the agent's decisions in the 2D GridWorld environment.
 
+### Experimental Results Analysis
+- **Efficiency**: The agent can quickly navigate from $(0,0)$ to the target area within the maximum step limit of 50 steps.
+- **Accuracy**: The end of the trajectories highly coincides with the randomly generated target points (red stars), demonstrating HER's excellent ability to solve sparse reward problems.
+- **Power of Hindsight**: Thanks to HER's "relabeling" mechanism, even if the agent doesn't hit the red star in the early stages, it learns how to reach every point along its trajectory through "reflection", eventually connecting these points into a path to success.
+
 ## Project Structure
 ```
 ├── train_her_ddpg.py      # Main training script
