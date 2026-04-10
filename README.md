@@ -92,3 +92,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Blog
+For more detailed explanation, please refer to the blog post:
+[6、以目标为导向的强化学习（HER_DDPG）复现demo](https://blog.csdn.net/m0_66676819/article/details/160006806?spm=1001.2014.3001.5502)
