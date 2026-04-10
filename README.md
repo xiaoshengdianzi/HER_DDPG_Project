@@ -1,8 +1,5 @@
 # HER_DDPG_Project
 
-![Additional Result 1](images/image1.png)
-![Additional Result 2](images/image2.png)
-
 ## Overview
 
 ### Key Concepts
@@ -12,6 +9,9 @@
 - GoRL learns a policy that works under different goal conditions, enabling it to solve more complex decision-making tasks.
 
 A target-oriented reinforcement learning project implementing Deep Deterministic Policy Gradient (DDPG) with Hindsight Experience Replay (HER) for goal-directed tasks. This project trains an agent to navigate a GridWorld environment, leveraging HER to convert failed attempts into valuable learning experiences, ideal for studying sparse-reward scenarios and continuous action control.
+
+![Additional Result 1](images/image1.png)
+![Additional Result 2](images/image2.png)
 
 ## Installation
 
